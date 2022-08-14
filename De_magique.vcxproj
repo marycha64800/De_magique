@@ -112,7 +112,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="display.h" />
+    <ClInclude Include="selecteur.h" />
     <ClInclude Include="__vm\.De_magique.vsarduino.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="display.cpp" />
+    <ClCompile Include="selecteur.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
